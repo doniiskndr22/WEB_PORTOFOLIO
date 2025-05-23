@@ -1,0 +1,61 @@
+.jumbotron {
+  padding-top: 7rem;
+  background-color: rgb(231, 255, 178);
+  text-align: center;
+}
+
+#project {
+  background-color: green;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  margin: 50px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+  text-align: left;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.thumbnail-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; /* bikin rasio 1:1 */
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.thumbnail-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* biar proporsional dan penuh */
+  border-radius: 12px;
+}
